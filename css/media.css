@@ -1,0 +1,51 @@
+/* as8ar mn 640 */
+
+/* sm */
+@media (min-width: 300px) {
+
+    .info-services {
+        text-align: center;
+    }
+
+}
+
+
+
+@media (min-width: 540px) {
+
+
+    .info-services {
+        text-align: center;
+    }
+
+
+
+}
+
+
+/* md */
+@media (min-width: 768px) {
+
+    .info-services {
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+/* lg */
+@media (min-width: 1024px) {
+    .info-services{
+        text-align: start;
+    }
+
+}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* lg */
+@media (min-width: 1536px) {}

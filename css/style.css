@@ -1,0 +1,233 @@
+/*global code*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+li {
+    font-family: "Source Sans 3", sans-serif;
+}
+/*=================Navbar and head================*/
+
+#navbar-scroll {
+    border-bottom: #353637 2px solid;
+
+}
+
+.bg-color {
+    background-color: #000;
+
+
+    transition: all 1s;
+
+
+}
+
+.nav-icon ul li {
+    list-style: none;
+}
+
+.img-head {
+    background-image: url(../image/bg-image-head1.jpg);
+
+    width: 100%;
+    display: block;
+    height: 100vh;
+    background-position: cover;
+    background-size: cover;
+
+}
+
+.img-head2 {
+    background-image: url(../image/bg-image-head2.jpg);
+    width: 100%;
+
+    display: block;
+    height: 100vh;
+    background-position: cover;
+    background-size: cover;
+
+}
+
+
+.slide-arrows {
+    top: 40% !important;
+}
+
+
+.slide-arrows button {
+
+    width: 60px;
+    height: 60px;
+}
+
+.inner-info {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-info h1 {
+    font-size: 80px;
+
+    line-height: 90px;
+}
+
+.but button {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.Serv:hover {
+    background-color: white !important;
+    transition: all .4s;
+    color: #000 !important;
+
+}
+/*=======================Who we are==========================*/
+
+.who-we-are p {
+    color:
+        rgb(120, 120, 120);
+    font-weight: 300;
+    line-height: 33px;
+}
+
+.who-we-are h2 {
+    color:
+
+        rgb(31, 31, 31);
+}
+
+.who-we-are .btn:hover {
+    background-color: #000 !important;
+    transition: all .4s;
+    color: #fff;
+
+}
+
+.who-we-are .btn {
+    font-size: 11px;
+    font-weight: 500;
+
+
+}
+
+/*======================================team=======================*/
+.Creative p {
+    color:
+        rgb(120, 120, 120);
+}
+
+.before-text::before {
+    z-index: -1;
+    content: 'c';
+    font-size: 2em;
+    opacity: .05;
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    text-align: center;
+    text-transform: uppercase;
+
+    right: 0;
+
+
+
+}
+
+.text-before::before {
+    z-index: -1;
+    content: 'W';
+    font-size: 2em;
+    opacity: .05;
+    position: absolute;
+    top: -30px;
+    text-transform: uppercase;
+
+}
+
+
+
+.overlay-body {
+    bottom: 5px !important;
+}
+
+
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 195, 218, 0.9) !important;
+    transition: all .3s ease;
+    opacity: 0;
+
+}
+
+.img-team:hover .overlay {
+    top: 100;
+    opacity: 1;
+}
+
+.overlay i {
+    cursor: pointer;
+}
+
+
+/*==============================services==============================*/
+
+
+.services {
+    background-color: #626262;
+}
+
+.services ul li {
+    list-style-type: none;
+}
+
+/*===============================work=====================*/
+.work {
+    background-color: #F7F7F7;
+}
+
+.body-text p {
+    color: rgb(120, 120, 120);
+}
+
+.body-head {
+    border-bottom: solid 1px #cecdcd !important;
+
+}
+.work-p{
+    color:
+        rgb(120, 120, 120);
+}
+
+
+.card-work:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+    transition: all .3s;
+
+}
+/*=============================contact==================================*/
+
+.touch-type::before {
+    z-index: -1;
+    content: 'G';
+    font-size: 2em;
+    opacity: .05;
+    position: absolute;
+    top: -30px;
+    text-transform: uppercase;
+}
+
+.contact-p {
+    color:
+        rgb(120, 120, 120);
+}
